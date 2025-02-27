@@ -1,0 +1,39 @@
+body {
+  margin: 45px;
+  overflow: hidden;
+  background-color: lightgreen;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+canvas {
+  background-color: lightblue;
+  border: 15px double black;
+}
+/* Bảng điểm hiển thị ở góc trên bên phải */
+#scoreboard {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+}
+/* Ô nhập nằm ở dưới cùng, canh giữa */
+#gameInput {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  padding: 5px;
+}
+#gameInput {
+  border: 15px double black;
+}
+#scoreboard {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
